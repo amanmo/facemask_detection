@@ -15,8 +15,8 @@ while True:
     mask_cascade = cv2.CascadeClassifier("haarcascade_facemask.xml")
 
     #Detecting faces and masks
-    faces = face_cascade.detectMultiScale(gray, scaleFactor = 1.25, minNeighbors = 3)
-    masks = mask_cascade.detectMultiScale(gray, scaleFactor = 1.17, minNeighbors = 6, minSize = (40,40))
+    faces = face_cascade.detectMultiScale(gray, scaleFactor = 1.25, minNeighbors = 3, minSize = (50,50))
+    masks = mask_cascade.detectMultiScale(gray, scaleFactor = 1.2, minNeighbors = 6, minSize = (50,50))
     
     #Visualizing the location of faces and masks
     for (x,y,w,h) in faces:
