@@ -6,7 +6,7 @@ This repository contains 1 Python file and 2 HAAR Cascade Classifiers stored as 
 
 The Python file opens up your webcam feed and detects masked and unmasked faces. It requires the [numpy](https://numpy.org/install/) and [OpenCV](https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html) libraries to be installed prior to running. 
 
-## XML
+## HAAR Cascade Classifiers
 
 The classifier for faces is from the widely available [OpenCV for Python project](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml).
 
