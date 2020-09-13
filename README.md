@@ -1,4 +1,4 @@
-# facemask_detection
+# Facemask Detection
 
 This repository contains 1 Python file and 2 HAAR Cascade Classifiers stored as XML files.
 
